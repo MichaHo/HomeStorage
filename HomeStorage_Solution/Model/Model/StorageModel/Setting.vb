@@ -30,7 +30,6 @@ Namespace StorageModel
         Public Overridable Property IsHidden As Boolean
         <Required>
         Public Overridable Property DataType As EnumDataType
-
         Public Overridable Property LastUpdateTimestamp As Date? Implements ILogicalTimestamp.LastUpdateTimestamp
         Public Overridable Property CreationTimestamp As Date? Implements ILogicalTimestamp.CreationTimestamp
     End Class
